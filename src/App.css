@@ -2,11 +2,16 @@
 
 :root {
   --primary-white: #ffffff;
-  --primary-orage: #f9ab00;
-  --primary-dark: rgb(52, 58, 6);
-  --primary-red: #ef4035;
-  --primary-hover-red: #ef4035;
   --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
+  --primary-orage: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
+  --primary-red: #ef4035;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
+  --primary-transparent-black: rgba(0,0,0,0.7);
+  --primary-green: green;
 }
 
 body {
@@ -87,7 +92,7 @@ nav ul li {
   }
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orage);
 }
 
@@ -98,10 +103,10 @@ nav ul li {
 /*****************HEADER*******************/
 .header-wraper {
   position: relative;
-  background: url(background.jpg);
+  background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -154,14 +159,6 @@ nav ul li {
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
-
-/* 
-.tsparticles-canvas-el {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-} */
 
 /*******************ABOUT ME******************/
 .photo-wrap {
@@ -289,3 +286,25 @@ nav ul li {
   transform: translate(-50%, -50%);
 }
 
+/*******************FOOTER******************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding-bottom: 2rem;
+  padding: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orage);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
