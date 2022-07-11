@@ -11,7 +11,7 @@ import reactIcon from '../icons/react.svg'
 
 const Skills = () => {
   return (
-      <div className='skills'>
+      <div id='skills' className='skills'>
           <h1 className='py-5'>skills</h1>
           <div className='container'>
             <div className='row'>
