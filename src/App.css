@@ -59,7 +59,7 @@ body {
 
 /********************NAVBAR*******************/
 .logo {
-  width: 16.25rem;
+  width: 14.25rem;
 }
 
 /******************MENU LINKS*****************/
@@ -103,7 +103,7 @@ nav ul li {
 /*****************HEADER*******************/
 .header-wraper {
   position: relative;
-  background: url(background.jpg) no-repeat;
+  background: url(background2.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
