@@ -13,7 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">about me</h1>
             <p>
-            Hey there ! I am Nicolas. I have been developing since 2020, both front-end and back-end applications. The technologies that I mostly use are Node Js and Python for API’s development, such as their common used libraries. About the Front-end technologies that I use, Bootstrap, React, HTML and CSS are my most used. Such as the development itself, I have experiences with cloud provisioning, most familiarized with AWS services (S3, ECS, Lambda), and the indispensables practices with different structs of Databases as well, MongoDB and PostgresSql, for example. 
+            Hi there ! I am Nicolas. I have been developing since 2020, both front-end and back-end applications. The technologies that I mostly use are Node Js and Python for API’s development, such as their common used libraries too. About the Front-end technologies that I use, Bootstrap, React, HTML and CSS are my most used. Such as the development itself, I have experiences with cloud provisioning, most familiarized with AWS services (S3, ECS, Lambda)  and the indispensables practices with different structs of Databases as well, MongoDB and PostgresSql, for example. I Love to create things and even more with making things better.
             </p>
         </div>
       </div>
