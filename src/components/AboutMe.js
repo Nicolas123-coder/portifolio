@@ -13,9 +13,7 @@ const AboutMe = () => {
         <div className="col-lg-6 col-xm-12">
             <h1 className="about-heading">about me</h1>
             <p>
-            Lorem ipsum dolor sit amet. Et maiores dolores qui nobis animi et aliquid nemo in nesciunt ducimus aut alias dolorum. Et nihil quam qui reprehenderit voluptatem est unde voluptate id ducimus laborum quo dolores cumque aut cumque sunt.
-            Vel internos aperiam ab eligendi voluptatem id enim voluptatem aut animi nisi et ratione doloremque? Qui fuga blanditiis aut voluptatem assumenda ut voluptas omnis in placeat illum vel dolores necessitatibus.
-            Vel alias officia sit consequatur repudiandae qui totam rerum sed explicabo corporis. Et accusamus eius sed nisi accusamus et quod obcaecati et voluptatum illum vel numquam nisi! Ut voluptatem voluptatem et corporis vitae eum facere consectetur et atque repellendus 33 perspiciatis aperiam vel animi iure. Id Quis blanditiis nam recusandae voluptate quo quidem dolorem nam omnis quia.
+            Hey there ! I am Nicolas. I have been developing since 2020, both front-end and back-end applications. The technologies that I mostly use are Node Js and Python for API’s development, such as their common used libraries. About the Front-end technologies that I use, Bootstrap, React, HTML and CSS are my most used. Such as the development itself, I have experiences with cloud provisioning, most familiarized with AWS services (S3, ECS, Lambda), and the indispensables practices with different structs of Databases as well, MongoDB and PostgresSql, for example. 
             </p>
         </div>
       </div>

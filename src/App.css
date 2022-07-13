@@ -103,7 +103,7 @@ nav ul li {
 /*****************HEADER*******************/
 .header-wraper {
   position: relative;
-  background: url(background2.jpg) no-repeat;
+  background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -145,6 +145,7 @@ nav ul li {
 
 /*****************HEADER MAIN OFFER BUTTON*********************/
 .btn-main-offer {
+  text-decoration: none;
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
   border-radius: 0;

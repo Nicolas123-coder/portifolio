@@ -6,15 +6,16 @@ const Header = () => {
   return (
    <div id='home' className="header-wraper">
        <div className="main-info">
-            <h1>web dev</h1>
+            <h1>fullstack dev</h1>
             <Typed
                 className="typed-text"
                 strings={[
-                    "Development",
-                    "BackEnd",
-                    "FrontEnd",
-                    "NodeJs",
-                    "React JS"
+                    "Front-end",
+                    "Back-End",
+                    "JavaScript",
+                    "Python",
+                    "Node js",
+                    "React js"
                 ]}
                 typeSpeed={40}
                 backSpeed={60}
