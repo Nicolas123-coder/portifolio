@@ -37,7 +37,7 @@ const Services = () => {
                         <div className='box'>
                         <div className='circle'><FontAwesomeIcon className='icon' icon={faDatabase} size='2x'/></div>                            
                         <h3>Data Management</h3>
-                            <p>Data manipulation for Relational and Non-Relational Databases (MongoDb)</p>
+                            <p>Data manipulation for Relational and Non-Relational Databases (MongoDB)</p>
                         </div>
                     </div>
                 </div>
