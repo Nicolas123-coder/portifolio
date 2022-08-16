@@ -1,5 +1,7 @@
 # My personal website App
 
+![actions build](https://github.com/Nicolas123-coder/portifolio/actions/workflows/CI.yml/badge.svg)
+
 Fell free to open any issue ;) 
 
 ## Available Scripts
