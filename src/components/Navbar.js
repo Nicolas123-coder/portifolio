@@ -23,11 +23,11 @@ const NavBar = () => {
         <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
       </button>
       
-      <a href="CV Nicolas.pdf" download="CV Nicolas.pdf">
+      {/* <a href="CV Nicolas.pdf" download="CV Nicolas.pdf">
         <button className="nav-button">
           Download Resume
         </button>
-      </a>
+      </a> */}
 
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
