@@ -1,15 +1,7 @@
 import React from "react";
-import {
-  FacebookShareButton,
-  FacebookIcon,
-  TwitterShareButton,
-  TwitterIcon,
-  WhatsappShareButton,
-  WhatsappIcon,
-  LinkedinShareButton,
-  LinkedinIcon
-} from "react-share";
 import { Link } from 'react-scroll';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
@@ -18,7 +10,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-lg-4 col-md-6 col-sm-6">
             <div className="d-flex">
-              <p>city São Paulo</p>
+              <p>São Paulo City</p>
             </div>
             <div className="d-flex">
               <a href="tel:+55(12)988212121">+55(12)98821-2121</a>
@@ -45,32 +37,16 @@ const Footer = () => {
           </div>
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
-              <FacebookShareButton
-                url={"www.nicolasdebarros.com.br"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
+              <a href="https://www.linkedin.com/in/nicolasdebarros/"
+                className="Linkedin social"
               >
-                <FacebookIcon className="mx-3" size={36} />
-              </FacebookShareButton>
-              <TwitterShareButton
-                url={"www.nicolasdebarros.com.br"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
+                <FontAwesomeIcon icon={faLinkedin} size='3x'/>
+              </a>
+              <a href="https://github.com/Nicolas123-coder"
+                className="Github social"
               >
-                <TwitterIcon className="mx-3" size={36} />
-              </TwitterShareButton>
-              <WhatsappShareButton
-                url={"www.nicolasdebarros.com.br"}
-              >
-                <WhatsappIcon className="mx-3" size={36} />
-              </WhatsappShareButton>
-              <LinkedinShareButton
-                url={"www.nicolasdebarros.com.br"}
-                quote={"FullStack Developer"}
-                hashtag="#javascript"
-              >
-                <LinkedinIcon className="mx-3" size={36} />
-              </LinkedinShareButton>
+                <FontAwesomeIcon icon={faGithub} size='3x'/>
+              </a>
             </div>
             <p className="pt-3 text-center">
               Copyright&copy;

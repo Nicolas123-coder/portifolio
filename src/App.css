@@ -71,7 +71,7 @@ nav a.nav-link {
 
 .nav-button {
   border-radius: 5px;
-  background-color: orange;
+  background-color: #ffa500;
   text-decoration: none;
   border: 1px solid;
   text-transform: uppercase;
@@ -324,6 +324,17 @@ nav ul li {
 .footer p {
   margin-bottom: 0;
 }
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 100ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
 
 /*******************CONTACTS******************/
 .contacts {
