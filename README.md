@@ -1,36 +1,30 @@
 # My personal website App
 
 ![actions build](https://github.com/Nicolas123-coder/portifolio/actions/workflows/CI.yml/badge.svg)
+![actions deploy](https://github.com/Nicolas123-coder/portifolio/actions/workflows/CD.yml/badge.svg)
 
-## Available Scripts
+## A Brief Explanation
+This project is my personal portfolio page.
 
-In the project directory, you can run:
+- The project uses : 
 
-### `npm start`
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Components Folder 🧩
+I built all the components inside this folder, I use React to render the functional components and bootstrap to add some extra features,
+Also for the Contact Me Form, I use EmailJS to build the form.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to run 
 
-### `npm test`
+```npm i```
+```npm run start```
 
-In the moment, the project are not coverage with tests.
+> more scripts in the package.json file
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
+## Deploy Info 🚀
+About the deploy, I use AWS S3 to host the static website and Github CI/CD Workflows to push code to the S3 bucket.
