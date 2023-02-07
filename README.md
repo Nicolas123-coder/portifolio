@@ -23,7 +23,7 @@ Also for the Contact Me Form, I use EmailJS to build the form.
 
 ## How to run 
 
-```npm i```
+```npm i -force```
 ```npm run start```
 
 > more scripts in the package.json file
