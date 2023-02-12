@@ -270,7 +270,7 @@ nav ul li {
 .portfolio-image {
   width: 15rem;
   border: 1px solid var(--primary-orange);
-  padding: 0 0.5rem;
+  /* padding: 0 0.5rem; */
 }
 
 .portfolio-image-box {
@@ -292,7 +292,7 @@ nav ul li {
    opacity: 0;
    background: var(--primary-black);
    width: 15rem;
-   height: 8rem;
+   height: 8.3rem;
    top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
