@@ -8,6 +8,7 @@ import awsIcon from '../icons/aws.svg'
 import mongoIcon from '../icons/mongodb.svg'
 import gqlIcon from '../icons/graphql.svg'
 import reactIcon from '../icons/react.svg'
+import postgres from '../icons/css.svg'
 
 const Skills = () => {
   return (
