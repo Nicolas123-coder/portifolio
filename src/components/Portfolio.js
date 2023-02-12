@@ -17,7 +17,7 @@ const Portfolio = () => {
     <div className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
-        <div className="d-flex justify-content-md-center">
+        <div className="image-box-wrapper row justify-content-center">
           <div className="portfolio-image-box" onClick={() => window.open("https://nicolas123-coder.github.io/monster-encyclopedia/", "_blank")}>
             <img className="portfolio-image" src={netflix} alt="Netflix Clone Project..." />
             <div className="overflow"></div>
